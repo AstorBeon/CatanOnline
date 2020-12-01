@@ -11,3 +11,9 @@ class Building():
 
     def upgrade(self):
         self.type="city"
+
+    def __str__(self):
+        return f"{self.type} of {self.player} on position {self.position}"
+
+    def __repr__(self):
+        return f"{self.type} of {self.player} on position {self.position}"

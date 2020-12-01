@@ -1,6 +1,6 @@
 class Tile():
-    avaliable_types=["sheep","iron","wood","clay","hay",'desert']
-    present_types ={"sheep":0,"iron":0,"wood":0,"clay":0,"hay":0,"desert":0}
+    avaliable_types=["sheep","stone","wood","clay","hay",'desert']
+    present_types ={"sheep":0,"stone":0,"wood":0,"clay":0,"hay":0,"desert":0}
 
 
 
@@ -10,6 +10,7 @@ class Tile():
         self.type=type
         self.position=position #(row,index)
         self.points=[]
+        self.enabled=True
 
 
 

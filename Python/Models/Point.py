@@ -13,3 +13,9 @@ class Point():
                 (self.position[0]+1, self.position[1] - 1),
                 (self.position[0]+1, self.position[1] + 1),
                 ]
+
+    def __str__(self):
+        return f"Point: {self.position}"
+
+    def __repr__(self):
+        return f"Point: {self.position}"
